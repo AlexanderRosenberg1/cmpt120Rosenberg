@@ -1,2 +1,2 @@
-"New lines were added
-"
+"New lines were added"
+"HELLO"
