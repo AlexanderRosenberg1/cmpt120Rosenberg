@@ -1,3 +1,5 @@
-"New lines were added"
-"HELLO"
-"HI HI"
+# If you look at the template, you are missing a few things
+def main():
+    print('Hello World!')
+
+main()

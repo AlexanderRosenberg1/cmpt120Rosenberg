@@ -5,7 +5,7 @@ def toNumbers(strList):
     myList = list(strList)
     
     for i in range(0,len(myList)):
-        myList[i] = ord(myList[i])
+        myList[i] = int(myList[i]) # JA: You need to convert a string into a number
         i += 1
 
     print(myList)
