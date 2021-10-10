@@ -7,11 +7,11 @@ def main():
         fine = 50
         for i in range(over):
             fine +=5
+        if speed > 90:
+            fine += 200
         print ("Your fine is $", +fine)
-    elif speed > 90:
-        print("Your fine $200")
 
-    elif speed <= speedlimit:
+    else:
         print("No ticket")
 
 main()
